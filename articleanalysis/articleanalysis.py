@@ -22,6 +22,7 @@ def apostrophecheck(i):
 p = 'y'
 while p=='y' or p=='Y':
     print(" ======ArticleAnalyser======")
+    print()
     artclTitle = input("    Enter article title:")
     artclList = artclTitle.split(" ")
     posCount, negCount = 0, 0
@@ -36,7 +37,7 @@ while p=='y' or p=='Y':
         for j in neglist:
             if k==j[0]:
                 negCount+=1
-
+    print()
     if posCount>negCount:
         print(" The article is POSITIVE")
         p = input(" Would you like to check another article? (y/n): ")
