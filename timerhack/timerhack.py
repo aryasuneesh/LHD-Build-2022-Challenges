@@ -9,7 +9,7 @@ def timerhack(t):
         time.sleep(1)
         t-=1
     playsound("timerhack/Ding-sound-three-times.mp3")
-    print("Time's up!")
+    print("Time's up!!")
 
     
 p = 'y'
