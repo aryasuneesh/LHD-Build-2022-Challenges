@@ -10,13 +10,13 @@ for l2 in neg:
 
 def apostrophecheck(i):
     if i[0]=="'" and i[-1]=="'":
-        i = i[1:-1]
+        i.strip('\'').strip("\'")
         return i
-    elif i[0]=="'" or i[0]=="\"":
-        i = i[1:]
+    elif i[0]=="\'" or i[-1]=="\'":
+        i.strip('\'')
         return i
-    elif i[-1]=="'" or i[-1]=="\"":
-        i = i[:-1]
+    elif i[0]=="\"" or i[-1]=="\"":
+        i.strip('\"')
         return i
 
 p = 'y'
