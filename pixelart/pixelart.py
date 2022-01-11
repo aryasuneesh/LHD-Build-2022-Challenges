@@ -1,9 +1,7 @@
 from PIL import Image
 import matplotlib.pyplot as plt
 
-
-
-def photo2pixelart(image, i_size, o_size):
+def photo2pixel(image, i_size, o_size):
 
     img=Image.open(image)
 
@@ -33,4 +31,4 @@ print("======PIXEL ART GENERATOR======")
 print()
 imag = input("Enter image path: ")
 img=Image.open(imag)
-photo2pixelart(image=imag, i_size=(32,32), o_size=img.size)
+photo2pixel(image=imag, i_size=(32,32), o_size=img.size)
