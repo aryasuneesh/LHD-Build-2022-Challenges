@@ -1,3 +1,5 @@
+# Dino CLone - Javascript Game
+
 ## Inspiration
 
 As I have zero experience with JS, i decided to do a follow-along tutorial and learn some JS while building this game for the challenge. 
@@ -8,7 +10,9 @@ A clone of Chrome Dino game using HTML, CSS and JS, but there is no dino or cact
 
 ## How we built it
 
-Using HTML, CSS and JS
+1. HTML
+2. CSS
+3. Javascript
 
 ## What we learned
 
