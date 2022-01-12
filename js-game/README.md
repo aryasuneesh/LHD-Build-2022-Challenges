@@ -20,7 +20,9 @@ I have now learnt some elements of JS and would like to learn deeper for improvi
 
 ## What's next for Replica of Chrome Dino game
 
-Right now, the game runs on a loop. I would like to add a start and stop feature to it. 
+- [ ] Add start and stop
+- [ ] Format scoreboard
+- [ ] Design characters and obstacles 
 
 ## Screenshots
 
