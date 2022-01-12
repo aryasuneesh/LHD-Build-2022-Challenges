@@ -1,6 +1,6 @@
 * {
     padding : 0px;
-    margin: 0;
+    margin: 2;
     overflow-x: hidden;
 }
 
@@ -48,4 +48,14 @@
 
 p{
     text-align : center;
+}
+
+button{
+    display: grid;
+    font-size: 30px;
+    text-align: center;
+    background-color:#f8b702;
+	border-radius:28px;
+	border:7px solid #ebc002;
+    margin: auto;
 }
