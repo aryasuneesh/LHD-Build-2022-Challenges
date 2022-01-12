@@ -1,4 +1,4 @@
-# Dino CLone - Javascript Game
+# Dino Clone - Javascript Game
 
 ## Inspiration
 
