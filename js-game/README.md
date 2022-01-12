@@ -26,7 +26,8 @@ I have now learnt some elements of JS and would like to learn deeper for improvi
 
 ## Screenshots
 
-![js-sc2](https://user-images.githubusercontent.com/68789441/149109025-95ddfb46-57b2-4ae2-b5c9-a47a2469b987.png)
 ![js-sc1](https://user-images.githubusercontent.com/68789441/149109037-991d5295-7524-4ba5-a358-d0d9504c7633.png)
+![js-sc2](https://user-images.githubusercontent.com/68789441/149109025-95ddfb46-57b2-4ae2-b5c9-a47a2469b987.png)
+
 
 
