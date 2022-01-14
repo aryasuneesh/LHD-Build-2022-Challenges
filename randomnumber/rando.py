@@ -1,4 +1,5 @@
 import os
+
 size = 1
 rand = os.urandom(size)
 
