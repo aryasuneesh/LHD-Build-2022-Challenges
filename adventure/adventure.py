@@ -1,0 +1,32 @@
+print("\n===========ADVENTURE GAME=============")
+print()
+name = input("In the kingdom of Pylos, there lived a brave warrior named : ")
+print(f"One day, {name} encountered a ferocious dragon, breathing fire out of its mouth")
+print(f"1. {name} chooses to fight the dragon with courage and valour")
+print(f"2. {name} chooses to run away from the dangerous flames")
+c1 = int(input("What's your choice? : [1]-----[2]"))
+if c1 == 1:
+    print(f"The flames burn the brave warrior's coat but they kept fighting")
+    print(f"Alas! The warrior's battle comes to a standstill as their bow breaks")
+    print("1. The warrior breaks a branch off a nearby tree")
+    print("2. The warrior tries to run back to the castle to get more weapons")
+    c2 = int(input("What's your choice? : [1]-----[2]"))
+    if c2==1:
+        print("The warrior uses the branch to impale the dragon's heart and kill it once and for all!")
+        print("The warrior returned home a bigger hero, praised by his countrymen and peers")
+        print("The end!")
+    elif c2==2:
+        print("As the warrior ran home, the dragon followed their path")
+        print("Unaware of the dragon following them, they kept running towards the center of the kingdom")
+        print("As the gates opened to the kingdom, the dragon pounced on the warrior")
+        print("With its sharp teeth, it killed the warrior and proceeded to kill everyone watching the brave warrior\'s death")
+        print(f"The kingdom of Pylos witnessed the death of thousands of civilians and the heroic death of the brave warrior, {name}")
+        print("The end!")
+
+else:
+    print("As the warrior ran home, the dragon followed their path")
+    print("Unaware of the dragon following them, they kept running towards the center of the kingdom")
+    print("As the gates opened to the kingdom, the dragon pounced on the warrior")
+    print("With its sharp teeth, it killed the warrior and proceeded to kill everyone watching the brave warrior\'s death")
+    print(f"The kingdom of Pylos witnessed the death of thousands of civilians and the heroic death of the brave warrior, {name}")
+    print("The end!")
