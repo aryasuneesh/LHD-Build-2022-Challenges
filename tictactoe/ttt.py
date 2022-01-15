@@ -25,10 +25,10 @@ def play_turn():
 turn = 1
 move = 9
 ch = 'X'
-print("\n======TIC TAC TOE=======\n".center(20))
-print("======RULES=======\n".center(20))
+print("\n======TIC TAC TOE=======\n")
+print("==========RULES=========\n")
 t.sleep(2)
-print("Players are named X and O".center(20))
+print("Players are named X and O")
 print("X axis is from left to right [positions spanning from 0 to 2]")
 print("Y axis is from top to bottom [positions spanning from 0 to 2]\n")
 print("Let's play!")
@@ -37,6 +37,8 @@ while move>0:
         print(disp[i])
     play_turn()
     if check_win():
+        for i in range(3):
+            print(disp[i])
         print(f"Player {ch} has won!")
         break
     turn = turn*-1
